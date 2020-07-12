@@ -1,0 +1,188 @@
+
+<!DocTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Sadman Rahman">
+    <title>7xT | Calculator</title>
+    <link rel="stylesheet" href="Calculatorstyles.css">
+
+  </head>
+
+  <body>
+
+
+  <div class="Lots">
+    <span id="Lots"> Lots </span>
+  </div>
+
+
+  <div class="LotClass">
+   <span id="LotSize">0.00</span>
+  </div>
+
+
+
+  
+
+  <div class="Risk">
+    <span id="Risk"> Risk </span>
+  </div>
+
+  <div class="RiskClass">
+    <span id="RiskID"> £0.00 (0.00%) </span>
+
+  </div>
+
+  <div class="Reward">
+    <span id="Reward"> Reward </span>
+  </div>
+
+  <div class="RewardClass">
+    <span id="RewardID"> £0.00 (0.00%) </span>
+
+  </div>
+
+
+  <table class = "Table2C">
+    <tr>
+      <td>
+        <div text-align = "right;" class="selectCurrency2" >
+          <select text id="SCID2" onchange="CalculateLotSize();" >
+               <optgroup label="Select Quote Currency">
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                 <option value="USD">USD</option>
+                 <option value="AUD">AUD</option>
+                 <option value="NZD">NZD</option>
+                 <option value="CAD">CAD</option>
+                 <option value="CHF">CHF</option>
+                 <option value="JPY">JPY</option>
+               </optgroup>
+         
+         
+             </select>
+         
+         
+           </div>
+      </td>
+
+      <td>
+        <div class="selectCurrency" >
+          <select id="SCID" onchange="CalculateLotSize();" >
+               <optgroup label="Select Quote Currency">
+                 <option value="USD">USD</option>
+                 <option value="JPY">JPY</option>
+                 <option value="AUD">AUD</option>
+                 <option value="NZD">NZD</option>
+                 <option value="CHF">CHF</option>
+                 <option value="CAD">CAD</option>
+                 <option value="GBP">GBP</option>
+               </optgroup>
+         
+         
+             </select>
+         
+         
+           </div>
+
+
+      </td>
+    </tr>
+  </table>
+
+
+  <div class="Commision">
+    <span id="CommBal">Includes a Commission of </span>
+    <span id="CommValue"> -£0.00 </span>
+  </div>
+
+
+  <table class="Table1C">
+
+
+    <tr>
+      <td class="td1">
+        <label class="Label1C">Risk in Points</label>
+      </td>
+      <td class="td2">
+        <input class="FormID3" type="number" placeholder="Pips Risked" id="RiskPips">
+      </td>
+    </tr>
+
+
+    <tr>
+      <td class="td1">
+        <label class="Label1D"> Account Balance of £</label>
+      </td>
+      <td class="td2">
+        <input class="FormID" type="number" placeholder="Balance" id="Balance">
+      </td>
+    </tr>
+
+
+
+
+    <tr>
+      <td class="td1">
+        <label class="Label1C">Risk in %</label>
+      </td>
+      <td class="td2">
+        <input class="FormID3" type="number" placeholder="Risk %" id="RiskPercentage">
+      </td>
+    </tr>
+
+    <tr>
+      <td class="td1">
+        <label class="Label1C">
+          Reward in Points
+        </label>
+      </td>
+      <td class="td2">
+        <input type="number" placeholder="Projected Reward" id="RewardPips" class="FormID3">
+    </td>
+    </tr>
+
+    </table>
+
+
+
+
+
+
+  <div class="RRRatio">
+    Reward to Reward Ratio <br>
+    <span id="RRatioID"> 0 </span>
+
+  </div>
+
+  <div class="Breakeven">
+    Breakeven <br>
+    <span id="BreakevenID"> 0 % </span>
+
+
+  <script src="CalculatorJS.js" charset="utf-8"></script>
+
+  <script src="jquery-3.3.1.js"></script>
+
+
+  <div class="header">
+    <h1> Lot Size Calculator </h1>
+    <span>by Sadman Rahman</span>
+ 
+</div>
+
+<div class="updated">
+  <span id="updateSpan">Exchange Rates updated on:</span>
+  <span id="date"> 28th June 2020</span>
+</div>
+
+
+  </body>
+
+
+
+
+</html>
+
