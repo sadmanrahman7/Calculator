@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #24272E;
+
+}
+
+
+
+.header > h1 {
+  color: white;
+  position: relative;
+  font-family: Nunito Sans;
+  font-size: 4vw;
+  text-align: left;
+  cursor: default;
+  display: inline;
+
+}
+
+.header > span {
+
+  color: pink;
+  position: relative;
+  font-family: Nunito Sans;
+  font-size: 1.5vw;
+  text-align: right;
+  cursor: default;
+  display: inline;
+  font-style: italic;
+}
+
+.header {
+  margin-top: 4%;
+  text-align: left;
+}
+
+
+
+.Risk {
+  background-color: #24272E;
+  color: silver;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 2.5vw;
+  width: 100%;
+  cursor: default;
+  margin-top: 1.05%;
+}
+
+.Reward {
+  background-color: #24272E;
+  color: grey;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 2.5vw;
+  width: 100%;
+  cursor: default;
+}
+
+
+
+::placeholder {
+  color: #24272E;
+}
+
+.Lots {
+  margin-top: 1.5%;
+  background-color: #24272E;
+  color: white;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 2.75vw;
+  width: 100%;
+  cursor: default;
+}
+
+
+.LotClass {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 5.7vw;
+  color: gold;
+  display:inline-block;
+  width: 100%;
+  cursor: default;
+  margin-top: -1%;
+}
+
+
+
+.RiskClass {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 2.7vw;
+  color: white;
+  display:inline-block;
+  width: 100%;
+  cursor: default;
+}
+
+
+.RewardClass {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 2.7vw;
+  color: white;
+  display:inline-block;
+  width: 100%;
+  cursor: default;
+}
+
+
+.Table2C {
+  margin: 0 auto;
+}
+
+
+
+.selectCurrency > select {
+  -webkit-appearance: none;
+  position: relative;
+  /*  background: #ffa32d; */
+  background-color: transparent;
+  color: yellow;
+  padding-right: 0px;
+  text-indent: 0px;
+  font-size: 2.5vw;
+  border: 0;
+  font-family: Nunito Sans;
+  outline: none;
+  border-radius: 0px;
+}
+
+.selectCurrency2 > select {
+  -webkit-appearance: none;
+  position: relative;
+  /*  background: #ffa32d; */
+  background-color: transparent;
+  color: seagreen;
+  padding-right: 0px;
+  text-indent: 0px;
+  font-size: 1.7vw;
+  border: 0;
+  font-family: Nunito Sans;
+  outline: none;
+  border-radius: 0px;
+  text-align-last:right;
+  vertical-align: middle;
+}
+
+
+
+.RRRatio {
+  margin-top: 3%;
+   text-align: center;
+   font-family: Nunito Sans;
+   font-size: 3vw;
+   color: slategrey;
+   padding: 10px;
+ }
+
+.RRRatio > span{
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 3vw;
+  color: white;
+  padding: 10px;
+}
+
+.Breakeven {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 3vw;
+  color:slategrey;
+  padding: 10px;
+}
+
+.Breakeven > span{
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 3vw;
+  color: white;
+  padding: 10px;
+}
+
+.Label1C  {
+  background: #24272E;
+  font-size: 2.5vw;
+  text-align: right;
+  color: white;
+  border: 0;
+  font-family: Nunito Sans;
+}
+
+.Label1D  {
+  background: #24272E;
+  font-size: 2.25vw;
+  text-align: right;
+  color: white;
+  border: 0;
+  font-family: Nunito Sans;
+}
+
+.FormID {
+  background: #24272E;
+  text-align: left;
+  font-size: 2.25vw;
+  color: white;
+  border: 0;
+  font-family: Nunito Sans;
+  width: 45%;
+  margin-right: -10px;
+  border-bottom: 0.5px solid white;
+
+}
+
+.FormID:hover {
+  border-bottom: 0.5px solid white;
+
+}
+
+.FormID3 {
+  background: #24272E;
+  text-align: center;
+  font-size: 2.5vw;
+  color: white;
+  border: 0;
+  font-family: Nunito Sans;
+  width: 25%;
+  margin-right: -20px;
+  border-bottom: 0.5px solid white;
+}
+
+.FormID3:hover {
+  border-bottom: 0.5px solid white;
+
+}
+
+
+.Table1C {
+  margin-top: 1.5%;
+  margin: 0 auto;
+}
+
+
+#FormID2 {
+  text-align: center;
+  background: #24272E;
+  font-size: 4vw;
+  color: white;
+  border: 0;
+  font-family: Nunito Sans;
+}
+
+#FormID2 > input {
+  text-align: center;
+  width: 15%;
+  background: #24272E;
+  font-size: 4vw;
+  color: white;
+  border: 0;
+  font-family: Nunito Sans;
+
+}
+
+.td1 {
+  text-align: right;
+}
+
+.td2 {
+  text-align: left;
+}
+
+.Commision {
+  margin-top: .25%;
+  color: white;
+  text-align: center;
+  font-family: Nunito Sans;
+  width: 100%;
+  cursor: default;
+  vertical-align: middle;
+  margin-bottom: 3%;
+}
+
+#CommBal {
+  font-size: 1vw;
+  font-style: italic;
+  margin-right: 0.25%;
+}
+
+
+#CommValue {
+  color: orange;
+  font-size: 1.05vw;
+}
+
+.updated {
+  margin-top: .25%;
+  background-color: #24272E;
+  color: rgb(199, 196, 196);
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 1vw;
+  width: 100%;
+  cursor: default;
+  position: relative;
+  text-align: left;
+  cursor: default;
+}
+
+.updated:hover {
+
+  color: white;
+}
+
+
+#date {
+  font-style: italic;
+  color: white;
+}
