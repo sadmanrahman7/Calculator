@@ -7,15 +7,16 @@
 
 }
 
+
 body {
-  background-color: #24272E;
+  background-color:white;
 
 }
 
 
 
 .header > h1 {
-  color: white;
+  color: #24272E;
   position: relative;
   font-family: Nunito Sans;
   font-size: 4vw;
@@ -27,7 +28,7 @@ body {
 
 .header > span {
 
-  color: pink;
+  color: darkcyan;
   position: relative;
   font-family: Nunito Sans;
   font-size: 1.5vw;
@@ -45,8 +46,8 @@ body {
 
 
 .Risk {
-  background-color: #24272E;
-  color: silver;
+  background-color: white;
+  color: grey;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 2.5vw;
@@ -56,25 +57,26 @@ body {
 }
 
 .Reward {
-  background-color: #24272E;
+  background-color: #white;
   color: grey;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 2.5vw;
   width: 100%;
   cursor: default;
+  margin-top: 1.05%;
 }
 
 
 
 ::placeholder {
-  color: #24272E;
+  color: white;
 }
 
 .Lots {
   margin-top: 1.5%;
-  background-color: #24272E;
-  color: white;
+  background-color: white;
+  color: 24272E;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 2.75vw;
@@ -87,20 +89,30 @@ body {
   text-align: center;
   font-family: Nunito Sans;
   font-size: 5.7vw;
-  color: gold;
+  color: #ff2800;
   display:inline-block;
   width: 100%;
   cursor: default;
   margin-top: -1%;
 }
 
+#ContractSize {
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 1.25vw;
+  color: goldenrod;
+  display:inline-block;
+  width: 100%;
+  cursor: default;
+  margin-top: -2%;
+}
 
 
 .RiskClass {
   text-align: center;
   font-family: Nunito Sans;
   font-size: 2.7vw;
-  color: white;
+  color: 24272E;
   display:inline-block;
   width: 100%;
   cursor: default;
@@ -111,7 +123,7 @@ body {
   text-align: center;
   font-family: Nunito Sans;
   font-size: 2.7vw;
-  color: white;
+  color: 24272E;
   display:inline-block;
   width: 100%;
   cursor: default;
@@ -125,35 +137,37 @@ body {
 
 
 .selectCurrency > select {
-  -webkit-appearance: none;
+  -webkit-appearance: none !important;
   position: relative;
   /*  background: #ffa32d; */
   background-color: transparent;
-  color: yellow;
+  color: navy;
   padding-right: 0px;
   text-indent: 0px;
-  font-size: 2.5vw;
+  font-size: 1.75vw;
   border: 0;
   font-family: Nunito Sans;
   outline: none;
   border-radius: 0px;
+  padding-top: 10%;
 }
 
 .selectCurrency2 > select {
-  -webkit-appearance: none;
+  -webkit-appearance: none !important;
   position: relative;
   /*  background: #ffa32d; */
   background-color: transparent;
   color: seagreen;
   padding-right: 0px;
   text-indent: 0px;
-  font-size: 1.7vw;
+  font-size: 1vw;
   border: 0;
   font-family: Nunito Sans;
   outline: none;
   border-radius: 0px;
   text-align-last:right;
   vertical-align: middle;
+  padding-top: 10%;
 }
 
 
@@ -171,7 +185,7 @@ body {
   text-align: center;
   font-family: Nunito Sans;
   font-size: 3vw;
-  color: white;
+  color: #24272E;
   padding: 10px;
 }
 
@@ -187,33 +201,33 @@ body {
   text-align: center;
   font-family: Nunito Sans;
   font-size: 3vw;
-  color: white;
+  color: #24272E;
   padding: 10px;
 }
 
 .Label1C  {
-  background: #24272E;
+  background: white;
   font-size: 2.5vw;
   text-align: right;
-  color: white;
+  color: #24272E;
   border: 0;
   font-family: Nunito Sans;
 }
 
 .Label1D  {
-  background: #24272E;
+  background: white;
   font-size: 2.25vw;
   text-align: right;
-  color: white;
+  color: #24272E;
   border: 0;
   font-family: Nunito Sans;
 }
 
 .FormID {
-  background: #24272E;
+  background: white;
   text-align: left;
   font-size: 2.25vw;
-  color: white;
+  color: #24272E;
   border: 0;
   font-family: Nunito Sans;
   width: 45%;
@@ -228,10 +242,10 @@ body {
 }
 
 .FormID3 {
-  background: #24272E;
+  background: white;
   text-align: center;
   font-size: 2.5vw;
-  color: white;
+  color: #24272E;
   border: 0;
   font-family: Nunito Sans;
   width: 25%;
@@ -248,14 +262,15 @@ body {
 .Table1C {
   margin-top: 1.5%;
   margin: 0 auto;
+  padding-left: 9%;
 }
 
 
 #FormID2 {
   text-align: center;
-  background: #24272E;
+  background: white;
   font-size: 4vw;
-  color: white;
+  color: #24272E;
   border: 0;
   font-family: Nunito Sans;
 }
@@ -263,9 +278,9 @@ body {
 #FormID2 > input {
   text-align: center;
   width: 15%;
-  background: #24272E;
+  background: white;
   font-size: 4vw;
-  color: white;
+  color: #24272E;
   border: 0;
   font-family: Nunito Sans;
 
@@ -277,17 +292,30 @@ body {
 
 .td2 {
   text-align: left;
+  padding-left: 5%;
 }
 
 .Commision {
   margin-top: .25%;
-  color: white;
+  color: #24272E;
   text-align: center;
   font-family: Nunito Sans;
   width: 100%;
   cursor: default;
   vertical-align: middle;
-  margin-bottom: 3%;
+  margin-bottom: 1.5%;
+}
+
+.EquityLabel {
+  margin-top: .25%;
+  color: #24272E;
+  text-align: center;
+  font-family: Nunito Sans;
+  width: 100%;
+  cursor: default;
+  vertical-align: middle;
+  margin-bottom: 1%;
+  font-size: 1.25vw
 }
 
 #CommBal {
@@ -304,8 +332,8 @@ body {
 
 .updated {
   margin-top: .25%;
-  background-color: #24272E;
-  color: rgb(199, 196, 196);
+  background-color: #white;
+  color: grey;
   text-align: center;
   font-family: Nunito Sans;
   font-size: 1vw;
@@ -318,11 +346,11 @@ body {
 
 .updated:hover {
 
-  color: white;
+  color: #24272E;
 }
 
 
 #date {
   font-style: italic;
-  color: white;
+  color: #24272E;
 }
