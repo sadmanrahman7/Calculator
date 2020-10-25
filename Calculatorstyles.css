@@ -141,7 +141,7 @@ body {
   position: relative;
   /*  background: #ffa32d; */
   background-color: transparent;
-  color: navy;
+  color: rgb(223, 63, 90);
   padding-right: 0px;
   text-indent: 0px;
   font-size: 1.75vw;
@@ -245,7 +245,19 @@ body {
   background: white;
   text-align: center;
   font-size: 2.5vw;
-  color: #24272E;
+  color: green;
+  border: 0;
+  font-family: Nunito Sans;
+  width: 25%;
+  margin-right: -20px;
+  border-bottom: 0.5px solid white;
+}
+
+.FormID3-Risk {
+  background: white;
+  text-align: center;
+  font-size: 2.5vw;
+  color: red;
   border: 0;
   font-family: Nunito Sans;
   width: 25%;
@@ -254,6 +266,11 @@ body {
 }
 
 .FormID3:hover {
+  border-bottom: 0.5px solid white;
+
+}
+
+.FormID3-Risk:hover {
   border-bottom: 0.5px solid white;
 
 }
