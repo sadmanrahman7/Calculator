@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Sadman Rahman">
-    <title>7xT | Calculator</title>
+    <link rel="icon" type="image/x-icon" href="https://1drv.ms/u/s!Aj_aOKbG7hTDzG7xd7siH2AkKl59?e=ffPpQa">
+    <title>Forex | Calculator</title>
     <link rel="stylesheet" href="Calculatorstyles.css">
+    
 
   </head>
 
@@ -14,7 +16,7 @@
 
 
   <div class="Lots">
-    <span id="Lots"> Lots </span>
+    <span id="Lots"> Standard Contracts </span>
   </div>
 
 
@@ -22,6 +24,9 @@
    <span id="LotSize">0.00</span>
   </div>
 
+  <div class="ContractSizeClass">
+    <span id="ContractSize">0.00</span>
+   </div>
 
 
   
@@ -79,6 +84,7 @@
                  <option value="CHF">CHF</option>
                  <option value="CAD">CAD</option>
                  <option value="GBP">GBP</option>
+                 <option value="SGD">SGD</option>
                </optgroup>
          
          
@@ -98,6 +104,9 @@
     <span id="CommValue"> -£0.00 </span>
   </div>
 
+  <div class="EquityLabel">
+    <span id="Eq1"> £0.00 </span>
+  </div>
 
   <table class="Table1C">
 
@@ -114,7 +123,7 @@
 
     <tr>
       <td class="td1">
-        <label class="Label1D"> Account Balance of £</label>
+        <label class="Label1D"> Equity (£) </label>
       </td>
       <td class="td2">
         <input class="FormID" type="number" placeholder="Balance" id="Balance">
@@ -122,16 +131,18 @@
     </tr>
 
 
-
-
     <tr>
       <td class="td1">
-        <label class="Label1C">Risk in %</label>
+        <label class="Label1C">Risk (%)</label>
       </td>
       <td class="td2">
         <input class="FormID3" type="number" placeholder="Risk %" id="RiskPercentage">
       </td>
     </tr>
+
+
+
+
 
     <tr>
       <td class="td1">
@@ -175,7 +186,7 @@
 
 <div class="updated">
   <span id="updateSpan">Exchange Rates updated on:</span>
-  <span id="date"> 28th June 2020</span>
+  <span id="date"> 11th October 2020</span>
 </div>
 
 
